@@ -4,8 +4,8 @@ This program is designed to obtain some data from cleartrip.com using Python 3.7
 ## Steps
 
 1. Install lxml library
-   a) Open cmd
-   b) Type `pip install lxml`
+   a. Open cmd
+   b. Type `pip install lxml`
 2. Run Scraper.py
 3. Enter page number (file name purposes)
 4. Enter web page
@@ -13,7 +13,7 @@ This program is designed to obtain some data from cleartrip.com using Python 3.7
 
 ## Changing name of exported csv file
 
-Look for variable `file_name` and change to whatever you want. It is currently set to `"results" + input("What page is the URL on? ") + ".csv"
+Look for variable `file_name` and change to whatever you want. It is currently set to `"results" + input("What page is the URL on? ") + ".csv"`
 
 ## Applying Scraper.py to another website
 
